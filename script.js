@@ -11,7 +11,7 @@ const calBmi=()=>{
 
    }
    else{
-    heightM = height/100;
+     let heightM = height/100;
     let bmi=weight/(heightM*heightM);
     bmi = Number(bmi.toFixed(2));
     result(bmi);
